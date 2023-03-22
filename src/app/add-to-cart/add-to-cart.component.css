@@ -4,6 +4,7 @@ header h2{
 form{
     margin: 10px;
     outline: 3px solid var(--blue-600);
+    border-radius: 50px;
     margin-top: 1em;
     margin-bottom: 3em;
     display: grid;
