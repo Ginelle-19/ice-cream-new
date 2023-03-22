@@ -1,0 +1,23 @@
+.ice-cream-container {
+  text-align: center;
+}
+ .body-cont{
+  outline:3px solid var(--blue-600);
+  margin: 10px 0px;
+  padding: 10px;
+  border-radius: 50px;
+} 
+
+.ice-cream-container .body-cont > img {
+  aspect-ratio: 1 /1;
+  min-width: 100%;
+  object-fit: cover;
+  object-position: center;
+  margin-bottom: 20px;
+}
+.ice-cream-container button{
+  width: 200px;
+  border-radius: 50px;
+  margin: 10px;
+  background-color: var(--blue-600);
+}

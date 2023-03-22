@@ -1,0 +1,26 @@
+header h2{
+    margin-top: 10px;
+}
+form{
+    margin: 10px;
+    outline: 3px solid var(--blue-600);
+    margin-top: .5em;
+    margin-bottom: .5em;
+    display: grid;
+}
+#size, #quantity, #add-ons, #name{
+    width: 400px;
+    margin-left: 1.5em;
+    margin-bottom: 10px;
+    height: 30px;
+}
+label{
+    text-align: center;
+    font-weight: bold;
+}
+button{
+    width: 200px;
+    border-radius: 50px;
+    margin: 10px auto;
+    background-color: var(--blue-600);
+}

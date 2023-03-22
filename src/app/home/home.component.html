@@ -1,0 +1,12 @@
+<section>
+    <article *ngFor="let icecream of menu" class="ice-cream-container">
+         <div class="body-cont">
+        <h2>{{icecream.type}}</h2>
+        <img src="{{icecream.imagePath}}" alt="">
+        <div>
+            <button (click)="goToRoute('/add-to-cart')" type="button">ADD TO CART</button>
+            <button (click)="goToRoute('/buy-now')" type="button">BUY NOW</button>
+        </div>
+     </div> 
+    </article>
+</section>
